@@ -1,0 +1,78 @@
+/*!
+ * SlickNav Responsive Mobile Menu v1.0.10
+ * (c) 2016 Josh Cope
+ * licensed under MIT
+ */
+
+ .slicknav_menu,
+ .slicknav_menu * {
+   box-sizing: border-box; /* Ensure consistent box model behavior */
+ }
+ 
+ .slicknav_btn {
+   position: relative;
+   display: block;
+   vertical-align: middle;
+   float: right; /* Adjust placement as needed */
+   padding: 0.438em 0.625em; /* Customize padding */
+   line-height: 1.125em;
+ }
+ 
+ .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+   margin-top: 0.188em; /* Adjust spacing between bars */
+ }
+ 
+ .slicknav_menu .slicknav_icon {
+   float: left;
+   width: 1.125em;
+   height: 0.875em;
+   margin: 0.188em 0 0 0.438em; /* Adjust positioning */
+ }
+ 
+ .slicknav_menu:after,
+ .slicknav_menu:before {
+   content: "";
+   display: table;
+ }
+ 
+ .slicknav_menu:after {
+   clear: both;
+ }
+ 
+ .slicknav_menu {
+   font-size: 16px; /* Customize font size */
+   background-color: #4c4c4c; /* Adjust background color */
+   padding: 5px; /* Customize padding */
+ }
+ 
+ .slicknav_nav,
+ .slicknav_nav ul {
+   list-style: none;
+   overflow: hidden;
+   padding: 0;
+ }
+ 
+ .slicknav_nav .slicknav_row,
+ .slicknav_nav a {
+   padding: 5px 10px; /* Customize padding */
+   margin: 2px 5px; /* Customize margin */
+ }
+ 
+ .slicknav_nav a {
+   text-decoration: none;
+   color: #fff; /* Adjust text color */
+ }
+ 
+ .slicknav_nav .slicknav_txtnode {
+   margin-left: 15px; /* Adjust indent for text nodes */
+ }
+ 
+ .slicknav_nav .slicknav_parent-link a {
+   display: inline;
+ }
+ 
+ .slicknav_nav .slicknav_item_no_text a {
+   padding: 0;
+   margin: 0;
+ }
+ 
